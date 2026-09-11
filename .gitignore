@@ -1,8 +1,6 @@
-@"
 node_modules/
 dist/
 .env
 *.local
 .DS_Store
 Thumbs.db
-"@ | Out-File -FilePath .gitignore -Encoding utf8
