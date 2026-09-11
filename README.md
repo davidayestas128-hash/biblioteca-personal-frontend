@@ -13,6 +13,23 @@ Este frontend consume la API REST desarrollada en Django:
 
 Interfaz web (SPA) para que un usuario organice y dé seguimiento a su colección personal de libros: catálogo de libros, colecciones personalizadas, estado de lectura y reseñas con calificación.
 
+## Flujo de trabajo
+
+Este proyecto sigue una estrategia basada en **GitHub Flow**, con una rama principal `main` protegida y ramas independientes para cada funcionalidad o corrección.
+
+## Convención de ramas:
+- `feature/nombre-de-la-funcionalidad` — para nuevas funcionalidades
+- `fix/nombre-del-error` — para correcciones de errores
+
+## Convención de commits:
+- `feat:` — nuevas funcionalidades
+- `fix:` — correcciones de errores
+- `docs:` — cambios en documentación
+- `refactor:` — cambios de estructura o código sin modificar la funcionalidad
+- `test:` — pruebas
+
+Antes de integrar cambios a `main`, se abre un Pull Request que debe ser revisado por al menos otro integrante del equipo.
+
 ## Tecnologías
 
 - React
