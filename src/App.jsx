@@ -22,10 +22,10 @@ function App() {
   return (
     <div className="app">
       <h1>Biblioteca Personal de Libros</h1>
-      <p>Punto de partida del proyecto — datos de prueba mientras se conecta la API real.</p>
+      <p><p>Punto de partida del proyecto — datos de prueba mientras se conecta la API real.</p></p>
 
       {cargando && <p>Cargando libros...</p>}
-      {error && <p>Ocurrió un error: {error}</p>}
+      {error && <p>Ocurrio un error: {error}</p>}
 
       {!cargando && !error && (
         <ul>
