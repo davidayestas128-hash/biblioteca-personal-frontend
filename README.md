@@ -14,9 +14,12 @@ Interfaz web (SPA) para que un usuario organice y dé seguimiento a su colecció
 
 ## Tecnologías
 
-- React
-- Vite
-- Axios
-- React Router
+* React
+* Vite
+* Axios
+* React Router
 
-## Estructura del proyecto (avance actual — Sesión 2)
+## Estructura del proyecto
+
+Estado actual Sesión 2 y 3 completadas: estructura inicial del proyecto, .gitignore, flujo de ramas documentado y Pull Requests con revisión entre integrantes. 
+
